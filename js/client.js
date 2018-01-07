@@ -442,3 +442,7 @@ TrelloPowerUp.initialize({
 });
 
 console.log('Loaded by: ' + document.referrer);
+
+setTimeout(function() {
+ console.log('q');
+},5000)
